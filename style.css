@@ -1,0 +1,67 @@
+/* typový selektor */
+body {
+    background-color: black;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./Poppins/Poppins-Black.ttf);
+    font-size: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: darkred !important;
+    background-color: dimgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkred;
+
+}
+th{
+    text-align: center;
+}
+p {
+    color: darkred;
+    text-align: left;
+}
+
+.zvetsenePismo {
+    font-size: 1.5em;
+}
+
+/* třídní selektor */
+.cervenaBarva {
+    color: darkred;
+}
+
+.vlevo {
+    text-align: left;
+}
+
+.vpravo {
+    text-align: right;
+}
+
+.centrovani {
+  text-align: center;
+}
+
+
+/* id - identifikátor */
+#modraBarva {
+    color: blue;
+}
+
+.tables{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    display:flex;
+    justify-content: center;
+    grid-gap: 50px;
+
+}
